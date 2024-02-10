@@ -1,9 +1,9 @@
 const reverseSeq = (n) => {
   let arr = [];
-  for (let i = n; i > n; i--) {
+  for (let i = n; i > 0; i--) {
     arr.push(i);
   }
   return arr;
 };
 
-reverseSeq(4);
+reverseSeq(3);
